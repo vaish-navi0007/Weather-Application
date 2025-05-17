@@ -7,8 +7,7 @@ A simple weather application that allows users to search for real-time weather d
 ## Features
 
 -  Search weather by city name  
-- 🌡Get real-time temperature and humidity  
--  Aesthetic and responsive UI with glassmorphism  
+- Get real-time temperature and humidity  
 - Supports **Search button** for input  
 
 ---
@@ -22,7 +21,7 @@ A simple weather application that allows users to search for real-time weather d
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**  
    ```bash
