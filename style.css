@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f5c6ec, #c6d8f5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2c2c2c;
+  overflow: hidden;
+}
+
+.app-container {
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 52px;
+  font-weight: 600;
+  color: #3e3e3e;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(25px);
+  border-radius: 30px;
+  padding: 50px 40px;
+  width: 100%;
+  max-width: 750px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.search-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.search-box input {
+  flex: 1 1 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.search-box input::placeholder {
+  color: #888;
+}
+
+.search-box button {
+  padding: 16px 30px;
+  background-color: #ffedf2;
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.search-box button:hover {
+  background-color: #ffdce7;
+  transform: translateY(-2px);
+}
+
+.weather-info {
+  margin-top: 30px;
+}
+
+.weather-info h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+.weather-info p {
+  font-size: 26px;
+  margin: 10px 0;
+  font-weight: 400;
+  color: #5a5a5a;
+}
+
+.hidden {
+  display: none;
+}
