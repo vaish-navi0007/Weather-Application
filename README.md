@@ -1,7 +1,5 @@
 # Weather-Application
 
-# 🌤️ Weather App
-
 A simple weather application that allows users to search for real-time weather details of any city using the OpenWeatherMap API.
 
 ---
