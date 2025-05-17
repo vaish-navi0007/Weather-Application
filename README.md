@@ -32,5 +32,5 @@ A simple weather application that allows users to search for real-time weather d
    cd weather-app
 
    ---
-##output
+##output ![Image](https://github.com/user-attachments/assets/5efa795d-4fad-426a-a9b0-43d08fbe9095)
 
